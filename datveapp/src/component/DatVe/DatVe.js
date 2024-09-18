@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useContext, useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import moment from 'moment';
@@ -5,6 +6,16 @@ import CustomerForm from './Infokhach';
 import './css/DatVe.css';
 import MyContext from '../../config/MyContext';
 import API, { endpoints } from '../../config/API';
+=======
+
+import React, { useContext, useEffect, useState } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
+import moment from 'moment';
+import MyContext from '../../configs/MyContext';
+import API, { endpoints } from '../../configs/API';
+import CustomerForm from './InfoKhach';
+import './css/DatVe.css';
+>>>>>>> d8cfd0270fa459996399116c215e3607699cf675
 
 const DatVe = () => {
     const navigate = useNavigate();
@@ -20,11 +31,19 @@ const DatVe = () => {
     const [le, setLe] = useState([]);
     const [isProcessing, setIsProcessing] = useState(false);
 
+<<<<<<< HEAD
     // const colors = {
     //     chon: '#0000CD',
     //     chonDuoc: '#006400',
     //     trong: '#d3d3d3'
     // };
+=======
+    const colors = {
+        chon: '#0000CD',
+        chonDuoc: '#006400',
+        trong: '#d3d3d3'
+    };
+>>>>>>> d8cfd0270fa459996399116c215e3607699cf675
 
     useEffect(() => {
         const fetchData = async () => {
@@ -374,4 +393,8 @@ const DatVe = () => {
     );
 };
 
+<<<<<<< HEAD
 export default DatVe;
+=======
+export default DatVe;
+>>>>>>> d8cfd0270fa459996399116c215e3607699cf675
