@@ -1,0 +1,137 @@
+/* ChuyenXe.css */
+
+.chuyenxe-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.chuyenxe-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-content {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.date-picker, .picker {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.date-picker {
+    margin-right: 0;
+}
+
+.chuyenxe-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.chuyenxe-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chuyenxe-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.chuyenxe-info {
+    margin: 5px 0;
+    color: #555;
+}
+
+.chuyenxe-price {
+    font-size: 18px;
+    color: #d9534f;
+}
+
+.btn-detail, .btn-add, .btn-back {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.btn-detail:hover, .btn-add:hover, .btn-back:hover {
+    background-color: #0056b3;
+}
+
+.no-results {
+    text-align: center;
+    color: #777;
+}
+
+.chuyenxe-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.chuyenxe-info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.chuyenxe-info {
+    margin: 5px 0;
+    color: #555;
+    flex: 1;
+}
+
+.chuyenxe-info-row p {
+    margin: 0;
+}
+
+.chuyenxe-price {
+    font-size: 18px;
+    color: #d9534f;
+    margin: 10px 0;
+}
+
+.btn-detail {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-detail:hover {
+    background-color: #0056b3;
+}
