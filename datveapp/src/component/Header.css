@@ -1,0 +1,40 @@
+.custom-navbar {
+    background-color: #f16a21;  /* Màu nền cam */
+    padding: 10px 0;
+  }
+  
+  .navbar-brand-custom {
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;  /* Đường kẻ dưới chữ Trang Chủ */
+  }
+  
+  .nav-items .nav-link-custom {
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+  }
+  
+  .nav-items .nav-link-custom:hover {
+    color: #ffc107;  /* Màu vàng khi hover */
+    text-decoration: none;
+  }
+  
+  .navbar-collapse {
+    justify-content: center;
+  }
+  
+  /* Tùy chỉnh khoảng cách giữa các mục Nav để giống với hình ảnh */
+  .navbar-nav {
+    gap: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-collapse {
+      justify-content: flex-start;
+    }
+  }

@@ -26,7 +26,6 @@ import ThemTaiXe from './component/TaiXe/ThemTaiXe';
 import SuaTaiXe from './component/TaiXe/SuaTaiXe';
 import TaiXeDetail from './component/TaiXe/DetailTX';
 import Profile from './component/VeXe/Profile';
-import Logout from './component/Home/DangXuat';
 import KhachHang from './component/KhachHang/KhachHang';
 import KhachHangDetail from './component/KhachHang/DetailKH';
 import ThemKhachHang from './component/KhachHang/ThemKH';
@@ -71,7 +70,6 @@ function App() {
           <Routes>
             <Route exact path="/home" element={<TrangChu />} />
             <Route exact path="/login" element={<Login />} />
-            <Route exact path="/logout" element={<Logout />} />
             <Route exact path="/register" element={<Register />} />
             <Route exact path="/tuyenxe" element={<TuyenXe />} />
             <Route exact path='/chuyenxe/tuyen/:TuyenXeID' element={<ChuyenXe />} />
@@ -90,7 +88,7 @@ function App() {
                 <Route exact path="/taixe" element={<TaiXe />} />
                 <Route exact path='/them_taixe' element={<ThemTaiXe />} />
                 <Route exact path='/sua_taixe/:id_TaiXe' element={<SuaTaiXe />} />
-                <Route exact path='/detail_taixe/:id' element={<TaiXeDetail />} />
+                <Route exact path='/detail_taixe/:id_TaiXe' element={<TaiXeDetail />} />
                 <Route exact path="/khachhang" element={<KhachHang />} />
                 <Route exact path='/them_khachhang' element={<ThemKhachHang />} />
                 <Route exact path='/sua_khachhang/:id_KH' element={<SuaKhachHang />} />

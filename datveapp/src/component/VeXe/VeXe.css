@@ -1,0 +1,85 @@
+.container {
+    padding: 20px;
+}
+
+.searchbar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.list-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.list-item:hover {
+    background-color: #e6e6e6;
+}
+
+.list-item-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket-details {
+    margin-top: 20px;
+}
+
+.detail-item, .seat-item, .bus-item {
+    margin-bottom: 10px;
+}
+
+.print-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.print-button:hover {
+    background-color: #45a049;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #007bb5;
+}
+
+.loading {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px;
+}

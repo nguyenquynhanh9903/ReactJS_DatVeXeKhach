@@ -128,7 +128,7 @@ const RegisterAdmin = () => {
                     >
                         <option value="1">Admin</option>
                         <option value="2">Nhân viên</option>
-                        <option value="3">Tài xế</option>
+                        <option value="4">Tài xế</option>
                     </Form.Select>
                 </FloatingLabel>
 
